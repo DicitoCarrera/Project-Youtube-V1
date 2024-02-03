@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "qa8rwnuKITCNk1TqZVjHIm1WwbOHkoVqh+QtGiOsM3aq1F2xo0Vw7IaatqgTiThLAITZfZt3Fh3j0jn2Xq55cw==",
+  "success": true,
+  "projectFilePath": "/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/Application.csproj",
+  "expectedPackageFiles": [
+    "/home/diego/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/home/diego/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/diego/.nuget/packages/microsoft.dotnet.ilcompiler/8.0.1/microsoft.dotnet.ilcompiler.8.0.1.nupkg.sha512",
+    "/home/diego/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/diego/.nuget/packages/microsoft.net.illink.tasks/8.0.1/microsoft.net.illink.tasks.8.0.1.nupkg.sha512",
+    "/home/diego/.nuget/packages/runtime.linux-x64.microsoft.dotnet.ilcompiler/8.0.1/runtime.linux-x64.microsoft.dotnet.ilcompiler.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

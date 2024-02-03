@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "fV62hn1GX6cfzFEyiloUrPuuildqf6McDFLSPJljH/a0dm/YgRXQp8cDr8lksM/kUn8FEq3Px+oaLLeDdTOc5g==",
+  "success": true,
+  "projectFilePath": "/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Infrastructure/Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "/home/diego/.nuget/packages/microsoft.dotnet.ilcompiler/8.0.1/microsoft.dotnet.ilcompiler.8.0.1.nupkg.sha512",
+    "/home/diego/.nuget/packages/microsoft.net.illink.tasks/8.0.1/microsoft.net.illink.tasks.8.0.1.nupkg.sha512",
+    "/home/diego/.nuget/packages/runtime.linux-x64.microsoft.dotnet.ilcompiler/8.0.1/runtime.linux-x64.microsoft.dotnet.ilcompiler.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
