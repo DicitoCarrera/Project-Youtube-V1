@@ -1,6 +1,9 @@
-﻿using Auth.Core;
+﻿using Application.Responces;
+using Core.Entities;
 using MediatR;
 
-namespace Application;
+namespace Application.Queries;
 
-public sealed record GetUserQuery(UserId Id) : IRequest<UserDTO?> { }
+public sealed record GetUserQuery(UserId Id) : IRequest<UserDTO?>
+{
+}

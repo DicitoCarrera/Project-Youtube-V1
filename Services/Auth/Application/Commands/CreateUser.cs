@@ -1,6 +1,8 @@
-﻿using System.Net;
+﻿using Application.Responces;
 using MediatR;
 
-namespace Application;
+namespace Application.Commands;
 
-public sealed record CreateUserCommand(string UserName, string EmailAddress, string Password) : IRequest<UserDTO> { }
+public sealed record CreateUserCommand(string UserName, string EmailAddress, string Password) : IRequest<UserDTO>
+{
+}

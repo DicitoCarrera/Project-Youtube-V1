@@ -1,7 +1,8 @@
-﻿using Auth.Core;
+﻿using Application.Responces;
+using Core.Entities;
 using MediatR;
 
-namespace Application;
+namespace Application.Commands;
 
 public sealed record UpDateUserCommand(UserId Id, string EmailAddress) : IRequest<UserDTO>
 {

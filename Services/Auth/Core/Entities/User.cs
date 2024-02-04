@@ -1,26 +1,26 @@
-﻿
-namespace Auth.Core;
+﻿namespace Core.Entities;
 
 public sealed record User(
-  UserId Id,
-  String UserName,
-  String EmailAddress,
-  String Password,
-  DateTimeOffset CreatedAt,
-  DateTimeOffset UpdatedAt)
+    UserId Id,
+    string UserName,
+    string EmailAddress,
+    string Password,
+    DateTimeOffset CreatedAt,
+    DateTimeOffset UpdatedAt)
 {
-  public static User NewUser(
-    string userName,
-    string emailAddress,
-    string password,
-    DateTimeOffset updatedAt)
-    => new(
-      UserId.NewUserId(),
-      userName,
-      emailAddress,
-      password,
-      DateTimeOffset.Now,
-      updatedAt
-      );
-};
-
+    public static User NewUser(
+        string userName,
+        string emailAddress,
+        string password,
+        DateTimeOffset updatedAt)
+    {
+        return new User(
+            UserId.NewUserId(),
+            userName,
+            emailAddress,
+            password,
+            DateTimeOffset.Now,
+            updatedAt
+        );
+    }
+}

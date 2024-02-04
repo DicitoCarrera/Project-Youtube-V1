@@ -1,18 +1,16 @@
-﻿using Auth.Core;
+﻿using Application.Queries;
+using Application.Responces;
+using Core.Repository;
 using MediatR;
 
-namespace Application;
+namespace Application.Handlers;
 
 public sealed class GetUserHandler(IUserRepository repository) : IRequestHandler<GetUserQuery, UserDTO?>
 {
-  private readonly IUserRepository _repository = repository;
-  public async Task<UserDTO?> Handle(GetUserQuery request, CancellationToken cancellationToken)
-  {
-    var user = await _repository.GetById(request.Id);
-    if (user != null)
+    public async Task<UserDTO?> Handle(GetUserQuery request, CancellationToken cancellationToken)
     {
-      return UserDTO.FromUser(user);
+        var user = await repository.GetById(request.Id);
+        if (user != null) return UserDTO.FromUser(user);
+        return null;
     }
-    return null;
-  }
 }

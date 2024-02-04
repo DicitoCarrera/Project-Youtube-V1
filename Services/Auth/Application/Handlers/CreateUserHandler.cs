@@ -1,26 +1,26 @@
-﻿using Auth.Core;
+﻿using Application.Commands;
+using Application.Responces;
+using Core.Entities;
+using Core.Repository;
 using MediatR;
 
-namespace Application;
+namespace Application.Handlers;
 
 internal sealed class CreateUserHandler(IUserRepository repository) : IRequestHandler<CreateUserCommand, UserDTO>
 {
-  private readonly IUserRepository _repository = repository;
+    public async Task<UserDTO> Handle(CreateUserCommand request, CancellationToken cancellationToken)
+    {
+        var hashedPassword = request.Password;
 
-  public async Task<UserDTO> Handle(CreateUserCommand request, CancellationToken cancellationToken)
-  {
-    var hashedPassword = request.Password;
+        var user = await repository.Create(
+            User.NewUser(
+                request.UserName,
+                request.EmailAddress,
+                hashedPassword,
+                DateTimeOffset.Now
+            )
+        );
 
-    var user = await _repository.Create(
-      User.NewUser(
-      request.UserName,
-      request.EmailAddress,
-      hashedPassword,
-      DateTimeOffset.Now
-      )
-    );
-
-    return UserDTO.FromUser(user);
-  }
+        return UserDTO.FromUser(user);
+    }
 }
-

@@ -1,33 +1,29 @@
-﻿using Auth.Core;
+﻿using Core.Entities;
+using Core.Repository;
 
-namespace Infrastructure;
+namespace Infrastructure.Repository;
 
-internal sealed class MongoUserDbRepository : IUserRepository
+internal sealed class MongoUserDbRepository(DbContext dbContext) : IUserRepository
 {
-  private readonly DbContext _dbContext;
-  public MongoUserDbRepository(DbContext _dbContext)
-  {
-    _dbContext = _dbContext;
-  }
-  public Task<User> Create(User user)
-  {
-    throw new NotImplementedException();
-  }
+    public Task<User> Create(User user)
+    {
+        throw new NotImplementedException();
+    }
 
-  public Task<User> Delete(User user)
-  {
-    throw new NotImplementedException();
-  }
+    public Task<User> Delete(User user)
+    {
+        throw new NotImplementedException();
+    }
 
-  public Task<User?> GetById(UserId id)
-  {
-    throw new NotImplementedException();
-  }
+    public Task<User?> GetById(UserId id)
+    {
+        throw new NotImplementedException();
+    }
 
-  public Task<User> Update(User user)
-  {
-    throw new NotImplementedException();
-  }
+    public Task<User> Update(User user)
+    {
+        throw new NotImplementedException();
+    }
 }
 
 internal class DbContext

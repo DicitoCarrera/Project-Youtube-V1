@@ -1,0 +1,16 @@
+/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/bin/Debug/net8.0/Application.deps.json
+/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/bin/Debug/net8.0/Application.dll
+/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/bin/Debug/net8.0/Application.pdb
+/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/bin/Debug/net8.0/Core.dll
+/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/bin/Debug/net8.0/Core.pdb
+/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/obj/Debug/net8.0/Application.csproj.AssemblyReference.cache
+/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/obj/Debug/net8.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache
+/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs
+/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/obj/Debug/net8.0/Application.csproj.CoreCompileInputs.cache
+/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/obj/Debug/net8.0/Application.sourcelink.json
+/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/obj/Debug/net8.0/Application.csproj.CopyComplete
+/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/obj/Debug/net8.0/Application.dll
+/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/obj/Debug/net8.0/refint/Application.dll
+/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/obj/Debug/net8.0/Application.pdb
+/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/obj/Debug/net8.0/ref/Application.dll
