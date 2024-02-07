@@ -1,10 +1,11 @@
-﻿namespace Core.Entities;
+﻿
+namespace Core.Entities;
 
 public sealed record User(
     UserId Id,
-    string UserName,
-    string EmailAddress,
-    string Password,
+    UserName UserName,
+    EmailAddress EmailAddress,
+    Password Password,
     DateTimeOffset CreatedAt,
     DateTimeOffset UpdatedAt)
 {
@@ -16,9 +17,9 @@ public sealed record User(
     {
         return new User(
             UserId.NewUserId(),
-            userName,
-            emailAddress,
-            password,
+            UserName.Create(userName),
+            EmailAddress.Create(emailAddress),
+            Password.Create(password),
             DateTimeOffset.Now,
             updatedAt
         );

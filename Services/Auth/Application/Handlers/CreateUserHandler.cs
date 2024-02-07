@@ -1,14 +1,15 @@
 ﻿using Application.Commands;
-using Application.Responces;
+using Application.Responses;
 using Core.Entities;
 using Core.Repository;
 using MediatR;
 
 namespace Application.Handlers;
 
-internal sealed class CreateUserHandler(IUserRepository repository) : IRequestHandler<CreateUserCommand, UserDTO>
+internal sealed class CreateUserHandler(IUserRepository repository)
+    : IRequestHandler<CreateUserCommand, UserDto>
 {
-    public async Task<UserDTO> Handle(CreateUserCommand request, CancellationToken cancellationToken)
+    public async Task<UserDto?> Handle(CreateUserCommand request, CancellationToken cancellationToken)
     {
         var hashedPassword = request.Password;
 
@@ -21,6 +22,6 @@ internal sealed class CreateUserHandler(IUserRepository repository) : IRequestHa
             )
         );
 
-        return UserDTO.FromUser(user);
+        return user.AsDto();
     }
 }

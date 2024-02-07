@@ -10,7 +10,7 @@ internal sealed class MongoUserDbRepository(DbContext dbContext) : IUserReposito
         throw new NotImplementedException();
     }
 
-    public Task<User> Delete(User user)
+    public Task Delete(User user)
     {
         throw new NotImplementedException();
     }

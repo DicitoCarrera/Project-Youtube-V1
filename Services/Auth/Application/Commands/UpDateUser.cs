@@ -1,9 +1,9 @@
-﻿using Application.Responces;
+﻿using Application.Responses;
 using Core.Entities;
 using MediatR;
 
 namespace Application.Commands;
 
-public sealed record UpDateUserCommand(UserId Id, string EmailAddress) : IRequest<UserDTO>
+public sealed record UpDateUserCommand(UserId Id, EmailAddress EmailAddress) : IRequest<UserDto>
 {
 }

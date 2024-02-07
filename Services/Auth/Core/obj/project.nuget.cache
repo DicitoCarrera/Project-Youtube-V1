@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WmyJQ9KoN8G7xoOusUvETvY9HqPBVosrGsloKsLf2qktqKLez5vjosguxdfRElzms4X2ZL4Ubl9ItEaCKJiJgg==",
+  "dgSpecHash": "+sGOWN6q8Ptr8KOys/6co4FZCB2112bdqrvMEdTsLYoai8mftv507yGqDgAFJrsIDWAb0eUjqRXfdj46Jx4Y0g==",
   "success": true,
   "projectFilePath": "/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Core/Core.csproj",
   "expectedPackageFiles": [
     "/home/diego/.nuget/packages/microsoft.dotnet.ilcompiler/8.0.1/microsoft.dotnet.ilcompiler.8.0.1.nupkg.sha512",
     "/home/diego/.nuget/packages/microsoft.net.illink.tasks/8.0.1/microsoft.net.illink.tasks.8.0.1.nupkg.sha512",
+    "/home/diego/.nuget/packages/serilog/3.1.2-dev-02097/serilog.3.1.2-dev-02097.nupkg.sha512",
     "/home/diego/.nuget/packages/runtime.linux-x64.microsoft.dotnet.ilcompiler/8.0.1/runtime.linux-x64.microsoft.dotnet.ilcompiler.8.0.1.nupkg.sha512"
   ],
   "logs": []

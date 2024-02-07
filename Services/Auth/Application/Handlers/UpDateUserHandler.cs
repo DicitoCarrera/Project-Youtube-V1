@@ -1,25 +1,23 @@
 ﻿using Application.Commands;
-using Application.Responces;
+using Application.Responses;
 using Core.Repository;
 using MediatR;
 
 namespace Application.Handlers;
 
 public sealed class UpDateUserHandler(IUserRepository repository)
-    : IRequestHandler<UpDateUserCommand, UserDTO>
+    : IRequestHandler<UpDateUserCommand, UserDto>
 {
-    public async Task<UserDTO> Handle(UpDateUserCommand request, CancellationToken cancellationToken)
+    public async Task<UserDto?> Handle(UpDateUserCommand request, CancellationToken cancellationToken)
     {
         var user = await repository.GetById(request.Id);
-        if (user != null)
+        if (user == null) return null;
+        var updatedUser = user with
         {
-            var updatedUser = await repository.Update(user with
-            {
-                EmailAddress = request.EmailAddress, UpdatedAt = DateTimeOffset.Now
-            });
-            return UserDTO.FromUser(updatedUser);
-        }
-
-        return null;
+            EmailAddress = request.EmailAddress,
+            UpdatedAt = DateTimeOffset.Now
+        };
+        await repository.Update(updatedUser);
+        return updatedUser.AsDto();
     }
 }
