@@ -32,7 +32,7 @@
           }
         }
       },
-      "Microsoft.DotNet.ILCompiler/8.0.1": {
+      "Microsoft.DotNet.ILCompiler/8.0.2": {
         "type": "package",
         "build": {
           "build/Microsoft.DotNet.ILCompiler.props": {}
@@ -54,7 +54,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.1": {
+      "Microsoft.NET.ILLink.Tasks/8.0.2": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -73,17 +73,17 @@
           }
         }
       },
-      "Core/1.0.0": {
+      "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Serilog": "3.1.2-dev-02097"
         },
         "compile": {
-          "bin/placeholder/Core.dll": {}
+          "bin/placeholder/Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Core.dll": {}
+          "bin/placeholder/Domain.dll": {}
         }
       }
     }
@@ -119,10 +119,10 @@
         "mediatr.contracts.nuspec"
       ]
     },
-    "Microsoft.DotNet.ILCompiler/8.0.1": {
-      "sha512": "vEmBtYRsH2gpnUJ9p7ElgB2UZSx5+CF2nHVr2QJ/3kzlfAYBxqXMx3VmQcxOcrsDEuF4/n1VH95qobrj8xnPdw==",
+    "Microsoft.DotNet.ILCompiler/8.0.2": {
+      "sha512": "rGE3+673xn1iZJCoMIuUb9lhqje4DiCB+qTyPAJ97Bw15c4N69ZbMAO/GJyxchaoLJCHIPXP52hwxEzqrllwCg==",
       "type": "package",
-      "path": "microsoft.dotnet.ilcompiler/8.0.1",
+      "path": "microsoft.dotnet.ilcompiler/8.0.2",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -141,7 +141,7 @@
         "build/NativeAOT.natvis",
         "build/WindowsAPIs.txt",
         "build/findvcvarsall.bat",
-        "microsoft.dotnet.ilcompiler.8.0.1.nupkg.sha512",
+        "microsoft.dotnet.ilcompiler.8.0.2.nupkg.sha512",
         "microsoft.dotnet.ilcompiler.nuspec",
         "runtime.json",
         "tools/netstandard/ILCompiler.Build.Tasks.deps.json",
@@ -181,10 +181,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.1": {
-      "sha512": "ADdJXuKNjwZDfBmybMnpvwd5CK3gp92WkWqqeQhW4W+q4MO3Qaa9QyW2DcFLAvCDMcCWxT5hRXqGdv13oon7nA==",
+    "Microsoft.NET.ILLink.Tasks/8.0.2": {
+      "sha512": "hKTrehpfVzOhAz0mreaTAZgbz0DrMEbWq4n3hAo8Ks6WdxdqQhNPvzOqn9VygKuWf1bmxPdraqzTaXriO/sn0A==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.1",
+      "path": "microsoft.net.illink.tasks/8.0.2",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -198,7 +198,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.1.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.2.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -259,51 +259,47 @@
         "serilog.nuspec"
       ]
     },
-    "Core/1.0.0": {
+    "Domain/1.0.0": {
       "type": "project",
-      "path": "../Core/Core.csproj",
-      "msbuildProject": "../Core/Core.csproj"
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Core >= 1.0.0",
+      "Domain >= 1.0.0",
       "MediatR >= 12.2.0",
-      "Microsoft.DotNet.ILCompiler >= 8.0.1",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.1",
-      "Serilog >= 3.1.2-dev-02097"
+      "Microsoft.DotNet.ILCompiler >= 8.0.2",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.2"
     ]
   },
   "packageFolders": {
-    "/home/diego/.nuget/packages/": {}
+    "C:\\Users\\Diego\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/Application.csproj",
+      "projectUniqueName": "C:\\Users\\Diego\\Documents\\Projects\\Project-Youtube-V1\\Services\\Auth\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/Application.csproj",
-      "packagesPath": "/home/diego/.nuget/packages/",
-      "outputPath": "/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/obj/",
+      "projectPath": "C:\\Users\\Diego\\Documents\\Projects\\Project-Youtube-V1\\Services\\Auth\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Diego\\Documents\\Projects\\Project-Youtube-V1\\Services\\Auth\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/diego/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "/home/diego/": {},
-        "/home/diego/.nuget/": {},
-        "/home/diego/.nuget/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Core/Core.csproj": {
-              "projectPath": "/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Core/Core.csproj"
+            "C:\\Users\\Diego\\Documents\\Projects\\Project-Youtube-V1\\Services\\Auth\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Diego\\Documents\\Projects\\Project-Youtube-V1\\Services\\Auth\\Domain\\Domain.csproj"
             }
           }
         }
@@ -312,6 +308,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -325,18 +326,14 @@
           "Microsoft.DotNet.ILCompiler": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.1, )",
+            "version": "[8.0.2, )",
             "autoReferenced": true
           },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.1, )",
+            "version": "[8.0.2, )",
             "autoReferenced": true
-          },
-          "Serilog": {
-            "target": "Package",
-            "version": "[3.1.2-dev-02097, )"
           }
         },
         "imports": [
@@ -352,8 +349,8 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "runtime.linux-x64.Microsoft.DotNet.ILCompiler",
-            "version": "[8.0.1, 8.0.1]"
+            "name": "runtime.win-x64.Microsoft.DotNet.ILCompiler",
+            "version": "[8.0.2, 8.0.2]"
           }
         ],
         "frameworkReferences": {
@@ -361,7 +358,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/diego/.dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

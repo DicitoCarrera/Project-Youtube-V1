@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "cgBvyGtT2AFlEIR7vUW7/ZADPErmSuqygNt3uCLSUn5FEWd139FOuFGDCLCgWZZc+W7WZHAIQDVysbKk7BU/iA==",
+  "dgSpecHash": "jWanB7z3p0vXMGeYPpLL3e8f19Rxf1jaqpqibhvrD3iEXhxvGASUYtskb9YxDxemsNKKixIn37jLw0HWC2bh6g==",
   "success": true,
-  "projectFilePath": "/home/diego/Documents/Projects/Project-Youtube-V1/Services/Auth/Application/Application.csproj",
+  "projectFilePath": "C:\\Users\\Diego\\Documents\\Projects\\Project-Youtube-V1\\Services\\Auth\\Application\\Application.csproj",
   "expectedPackageFiles": [
-    "/home/diego/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
-    "/home/diego/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
-    "/home/diego/.nuget/packages/microsoft.dotnet.ilcompiler/8.0.1/microsoft.dotnet.ilcompiler.8.0.1.nupkg.sha512",
-    "/home/diego/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "/home/diego/.nuget/packages/microsoft.net.illink.tasks/8.0.1/microsoft.net.illink.tasks.8.0.1.nupkg.sha512",
-    "/home/diego/.nuget/packages/serilog/3.1.2-dev-02097/serilog.3.1.2-dev-02097.nupkg.sha512",
-    "/home/diego/.nuget/packages/runtime.linux-x64.microsoft.dotnet.ilcompiler/8.0.1/runtime.linux-x64.microsoft.dotnet.ilcompiler.8.0.1.nupkg.sha512"
+    "C:\\Users\\Diego\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\Diego\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Diego\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.2\\microsoft.dotnet.ilcompiler.8.0.2.nupkg.sha512",
+    "C:\\Users\\Diego\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Diego\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.2\\microsoft.net.illink.tasks.8.0.2.nupkg.sha512",
+    "C:\\Users\\Diego\\.nuget\\packages\\serilog\\3.1.2-dev-02097\\serilog.3.1.2-dev-02097.nupkg.sha512",
+    "C:\\Users\\Diego\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.2\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.2.nupkg.sha512"
   ],
   "logs": []
 }
