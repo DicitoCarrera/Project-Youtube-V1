@@ -2,7 +2,7 @@ using Domain.Entities;
 
 namespace Domain.Interfaces.Auth;
 
-public interface IJwtTokenGenerator
+public interface ITokenProvider
 {
     Task<string> GenerateToken(User user);
 }

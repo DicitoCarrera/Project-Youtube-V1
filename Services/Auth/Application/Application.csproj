@@ -16,7 +16,6 @@
         <Nullable>enable</Nullable>
         <PublishAot>true</PublishAot>
         <IsAotCompatible>true</IsAotCompatible>
-        <CodeAnalysisTreatWarningsAsErrors>false</CodeAnalysisTreatWarningsAsErrors>
     </PropertyGroup>
 
 </Project>

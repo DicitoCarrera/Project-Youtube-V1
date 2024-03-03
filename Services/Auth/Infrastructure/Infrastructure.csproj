@@ -12,7 +12,7 @@
 
 
     <ItemGroup>
-        <ProjectReference Include="..\Application\Application.csproj"/>
+        <ProjectReference Include="..\Domain\Domain.csproj"/>
     </ItemGroup>
 
     <PropertyGroup>
@@ -20,6 +20,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PublishAot>true</PublishAot>
+        <IsAotCompatible>true</IsAotCompatible>
     </PropertyGroup>
 
 </Project>

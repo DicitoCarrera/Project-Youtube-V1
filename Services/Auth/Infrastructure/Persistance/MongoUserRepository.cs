@@ -4,17 +4,17 @@ using Domain.ValueObjects;
 
 namespace Infrastructure.Persistance;
 
-public sealed class UserRepository : IUserRepository
+public sealed class MongoUserRepository : IUserRepository
 {
-    private static readonly List<User> _users = new();
+    private static readonly List<User> Users = [];
 
     public async Task AddAsync(User user)
     {
-        _users.Add(user);
+        Users.Add(item: user);
     }
 
     public async Task<User?> GetByEmailAsync(EmailAddress email)
     {
-        return _users.SingleOrDefault(u => u.Email.Equals(email));
+        return Users.SingleOrDefault(predicate: u => u.Email.Equals(other: email));
     }
 }

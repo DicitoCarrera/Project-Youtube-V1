@@ -1,14 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "odhAUsIUkOuLTzqtOAC5J6Z0YboUhVws76xus6aOqA3o+ucpV2CqeILKcUmMo7xDIHqKGxEUHdzpTGDFWTw/1Q==",
+  "dgSpecHash": "m1FCDqr9Sj+Z9t9dmRwQAzBIAxZktPk5H0UIXiCse6l6JobR+3MUnZwc1XZ98GJ/5NbFvx8LGjGCZ/b6fUmpuA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Diego\\Documents\\Projects\\Project-Youtube-V1\\Services\\Auth\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diego\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Diego\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Diego\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
-    "C:\\Users\\Diego\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
-    "C:\\Users\\Diego\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Diego\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.2\\microsoft.dotnet.ilcompiler.8.0.2.nupkg.sha512",
     "C:\\Users\\Diego\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Diego\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",

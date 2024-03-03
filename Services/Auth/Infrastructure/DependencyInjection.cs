@@ -10,8 +10,9 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddInfrastructure(this IServiceCollection services)
     {
-        services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
-        services.AddSingleton<IUserRepository, UserRepository>();
+        services.AddSingleton<ITokenProvider, JwtTokenProvider>();
+        services.AddSingleton<IUserRepository, MongoUserRepository>();
+
         return services;
     }
 }
