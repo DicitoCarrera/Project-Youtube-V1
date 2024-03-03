@@ -1,15 +1,13 @@
-using Domain.Abstractions;
-
-namespace Application.Errors;
+namespace Domain.Abstractions.Errors;
 
 public sealed class AuthErrors
 {
     public static readonly Error InvalidCredentials
-        = new(Code: "InvalidCredentials", Description: "Invalid credentials"
+        = new("InvalidCredentials", "Invalid credentials"
         );
 
     public static readonly Error InvalidEmail
-        = new(Code: "InvalidEmail", Description: "Invalid email address");
+        = new("InvalidEmail", "Invalid email address");
 
     public static readonly Error InvalidPassword
         = new("InvalidPassword", "Invalid password");

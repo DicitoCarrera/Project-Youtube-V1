@@ -2,7 +2,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Domain.Entities;
-using Domain.Interfaces.Auth;
+using Domain.Interfaces;
 using Microsoft.IdentityModel.Tokens;
 
 namespace Infrastructure.Auth;
@@ -18,28 +18,29 @@ public sealed class JwtTokenProvider : ITokenProvider
             = "your-very-long-and-secure-secret-key-here-with-at-least-32-bytes-length";
 
         var signingKey
-            = new SymmetricSecurityKey(key: Encoding.UTF8.GetBytes(s: secretKey));
+            = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey));
 
         var signingCredentials
-            = new SigningCredentials(key: signingKey, algorithm: SecurityAlgorithms.HmacSha256);
+            = new SigningCredentials(signingKey, SecurityAlgorithms.HmacSha256);
 
         var claims = new List<Claim>
         {
-            new(JwtRegisteredClaimNames.Sub, value: user.Id.ToString()),
-            new(JwtRegisteredClaimNames.Email, value: user.Email.Value),
-            new(JwtRegisteredClaimNames.Jti, value: Guid.NewGuid().ToString())
+            new(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
+            new(JwtRegisteredClaimNames.Email, user.Email.Value),
+            new(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
         };
 
         var tokenOptions = new JwtSecurityToken(
-            issuer: "YourIssuer", // Replace with your issuer
-            audience: "YourAudience", // Replace with your audience
-            claims: claims,
-            expires: DateTime.UtcNow.AddDays(1), // Using UtcNow is generally a good practice
+            "YourIssuer", // Replace with your issuer
+            "YourAudience", // Replace with your audience
+            claims,
+            expires: DateTime.UtcNow
+                .AddHours(1), // Using UtcNow is generally a good practice
             signingCredentials: signingCredentials
         );
 
         var tokenString
-            = new JwtSecurityTokenHandler().WriteToken(token: tokenOptions);
+            = new JwtSecurityTokenHandler().WriteToken(tokenOptions);
 
         return tokenString;
     }

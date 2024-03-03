@@ -3,7 +3,7 @@ using API.Endpoints;
 using Application;
 using Infrastructure;
 
-var builder = WebApplication.CreateBuilder(args: args);
+var builder = WebApplication.CreateBuilder(args);
 {
     // Add services to the container.
     builder.Services

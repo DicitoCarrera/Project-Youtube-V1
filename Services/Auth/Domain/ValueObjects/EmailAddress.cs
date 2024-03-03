@@ -13,7 +13,8 @@ public readonly record struct EmailAddress
     {
         // Basic validation to check if the email contains '@'
         if (string.IsNullOrWhiteSpace(value) || !value.Contains('@'))
-            throw new ArgumentException(message: "The email address is not valid", paramName: nameof(value));
+            throw new ArgumentException("The email address is not valid",
+                nameof(value));
 
         return new EmailAddress(value);
     }

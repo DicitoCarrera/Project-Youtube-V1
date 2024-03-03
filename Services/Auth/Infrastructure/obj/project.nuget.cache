@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m1FCDqr9Sj+Z9t9dmRwQAzBIAxZktPk5H0UIXiCse6l6JobR+3MUnZwc1XZ98GJ/5NbFvx8LGjGCZ/b6fUmpuA==",
+  "dgSpecHash": "/iBKuds6vC+qUYrCtsAk0ibFVveN851yvhb0YJtURBKviEL8/w/1eJ2yctGc6PfIXXciaVLBTOnnX9P7QncsNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Diego\\Documents\\Projects\\Project-Youtube-V1\\Services\\Auth\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "c:\\Users\\Diego\\Documents\\Projects\\YouTubeMock\\Services\\Auth\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diego\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Diego\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

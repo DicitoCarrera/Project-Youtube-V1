@@ -21,6 +21,7 @@
         <Nullable>enable</Nullable>
         <PublishAot>true</PublishAot>
         <IsAotCompatible>true</IsAotCompatible>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
 </Project>

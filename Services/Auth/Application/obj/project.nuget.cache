@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jWanB7z3p0vXMGeYPpLL3e8f19Rxf1jaqpqibhvrD3iEXhxvGASUYtskb9YxDxemsNKKixIn37jLw0HWC2bh6g==",
+  "dgSpecHash": "TCjrUkbAGl0hs1tqZkjBMLAL/Ef77LRd3o5SbxtOeCSIdj0NnaN+TRrfz/fYw0Snmc3FTEYta1eo7ubNyQSnhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Diego\\Documents\\Projects\\Project-Youtube-V1\\Services\\Auth\\Application\\Application.csproj",
+  "projectFilePath": "c:\\Users\\Diego\\Documents\\Projects\\YouTubeMock\\Services\\Auth\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diego\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Diego\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

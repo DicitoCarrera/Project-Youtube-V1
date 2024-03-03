@@ -1,9 +1,8 @@
-﻿using Domain.Abstractions;
-using Domain.ValueObjects;
+﻿using Domain.ValueObjects;
 
 namespace Domain.Entities;
 
-public sealed class User : Entity
+public sealed class User
 {
     private User(
         UserId id,
@@ -11,13 +10,14 @@ public sealed class User : Entity
         Password password,
         DateTimeOffset createdAt
     )
-        : base(id)
     {
+        Id = id;
         Password = password;
         Email = emailAddress;
         CreatedAt = createdAt;
     }
 
+    public UserId Id { get; }
     public EmailAddress Email { get; }
     public Password Password { get; }
     public DateTimeOffset CreatedAt { get; }
@@ -25,9 +25,9 @@ public sealed class User : Entity
     public static User Create(EmailAddress emailAddress, Password password)
     {
         return new User(
-            id: UserId.NewUserId(),
-            emailAddress: emailAddress,
-            password: password,
-            createdAt: DateTimeOffset.Now);
+            UserId.NewUserId(),
+            emailAddress,
+            password,
+            DateTimeOffset.Now);
     }
 }

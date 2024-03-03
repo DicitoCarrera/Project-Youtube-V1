@@ -1,6 +1,6 @@
 using Domain.Entities;
 
-namespace Domain.Interfaces.Auth;
+namespace Domain.Interfaces;
 
 public interface ITokenProvider
 {

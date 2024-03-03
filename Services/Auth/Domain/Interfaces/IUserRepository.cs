@@ -1,7 +1,7 @@
 ﻿using Domain.Entities;
 using Domain.ValueObjects;
 
-namespace Domain.Interfaces.Persistance;
+namespace Domain.Interfaces;
 
 public interface IUserRepository
 {

@@ -12,6 +12,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Infrastructure
-build_property.ProjectDir = C:\Users\Diego\Documents\Projects\Project-Youtube-V1\Services\Auth\Infrastructure\
+build_property.ProjectDir = c:\Users\Diego\Documents\Projects\YouTubeMock\Services\Auth\Infrastructure\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false

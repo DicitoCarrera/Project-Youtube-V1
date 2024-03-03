@@ -1205,11 +1205,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Diego\\Documents\\Projects\\Project-Youtube-V1\\Services\\Auth\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "c:\\Users\\Diego\\Documents\\Projects\\YouTubeMock\\Services\\Auth\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\Diego\\Documents\\Projects\\Project-Youtube-V1\\Services\\Auth\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "c:\\Users\\Diego\\Documents\\Projects\\YouTubeMock\\Services\\Auth\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Diego\\Documents\\Projects\\Project-Youtube-V1\\Services\\Auth\\Infrastructure\\obj\\",
+      "outputPath": "c:\\Users\\Diego\\Documents\\Projects\\YouTubeMock\\Services\\Auth\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1224,8 +1224,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Diego\\Documents\\Projects\\Project-Youtube-V1\\Services\\Auth\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Diego\\Documents\\Projects\\Project-Youtube-V1\\Services\\Auth\\Domain\\Domain.csproj"
+            "c:\\Users\\Diego\\Documents\\Projects\\YouTubeMock\\Services\\Auth\\Domain\\Domain.csproj": {
+              "projectPath": "c:\\Users\\Diego\\Documents\\Projects\\YouTubeMock\\Services\\Auth\\Domain\\Domain.csproj"
             }
           }
         }
